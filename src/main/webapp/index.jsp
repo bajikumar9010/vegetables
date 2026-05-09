@@ -3,23 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Flower Shop</title>
+  <title>School Library</title>
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
       margin: 0; padding: 0;
-      background: #fffafc;
+      background: #f9f9f9;
     }
     header {
-      background: #e91e63;
+      background: #2e7d32;
       color: #fff;
-      padding: 20px;
       text-align: center;
+      padding: 20px;
     }
     nav {
-      background: #f06292;
-      padding: 10px;
+      background: #388e3c;
       text-align: center;
+      padding: 10px;
     }
     nav a {
       color: #fff;
@@ -28,7 +28,7 @@
       font-weight: bold;
     }
     .hero {
-      background: url('flowers-banner.jpg') no-repeat center center/cover;
+      background: url('library-banner.jpg') no-repeat center center/cover;
       height: 300px;
       display: flex;
       align-items: center;
@@ -60,14 +60,14 @@
     }
     .card h3 {
       margin: 10px 0;
-      color: #e91e63;
+      color: #2e7d32;
     }
     .card p {
       color: #555;
       padding: 0 10px;
     }
     .card button {
-      background: #e91e63;
+      background: #2e7d32;
       color: #fff;
       border: none;
       padding: 10px;
@@ -76,10 +76,10 @@
       font-size: 1em;
     }
     .card button:hover {
-      background: #c2185b;
+      background: #1b5e20;
     }
     footer {
-      background: #e91e63;
+      background: #2e7d32;
       color: #fff;
       text-align: center;
       padding: 15px;
@@ -89,44 +89,44 @@
 </head>
 <body>
   <header>
-    <h1>Bloom & Blossom</h1>
-    <p>Fresh flowers for every occasion</p>
+    <h1>Greenfield School Library</h1>
+    <p>Explore, Learn, and Grow with Books</p>
   </header>
 
   <nav>
     <a href="#">Home</a>
-    <a href="#">Bouquets</a>
-    <a href="#">Gifts</a>
+    <a href="#">Books</a>
+    <a href="#">Membership</a>
     <a href="#">Contact</a>
   </nav>
 
   <div class="hero">
-    Brighten Your Day with Flowers
+    Welcome to Our Library
   </div>
 
   <div class="container">
     <div class="card">
-      <img src="roses.jpg" alt="Red Roses">
-      <h3>Red Roses</h3>
-      <p>Classic bouquet of fresh red roses.</p>
-      <button>Buy Now</button>
+      <img src="fiction.jpg" alt="Fiction Books">
+      <h3>Fiction</h3>
+      <p>Immerse yourself in imaginative stories and adventures.</p>
+      <button>Explore</button>
     </div>
     <div class="card">
-      <img src="tulips.jpg" alt="Tulips">
-      <h3>Colorful Tulips</h3>
-      <p>Perfect spring gift with vibrant tulips.</p>
-      <button>Buy Now</button>
+      <img src="science.jpg" alt="Science Books">
+      <h3>Science</h3>
+      <p>Discover the wonders of science and technology.</p>
+      <button>Explore</button>
     </div>
     <div class="card">
-      <img src="orchids.jpg" alt="Orchids">
-      <h3>Elegant Orchids</h3>
-      <p>Graceful orchids for special occasions.</p>
-      <button>Buy Now</button>
+      <img src="history.jpg" alt="History Books">
+      <h3>History</h3>
+      <p>Travel through time and learn from the past.</p>
+      <button>Explore</button>
     </div>
   </div>
 
   <footer>
-    <p>&copy; 2026 Bloom & Blossom. All rights reserved.</p>
+    <p>&copy; 2026 Greenfield School Library. All rights reserved.</p>
   </footer>
 </body>
 </html>
